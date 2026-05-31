@@ -37,7 +37,7 @@ Con el flujo de tráfico (Norte-Sur) desviado a través de la máquina atacante,
 
 **Evidencia C: Portal de Autenticación Vulnerable**
 *El usuario en el endpoint Windows interactúa con un portal bancario de pruebas e ingresa sus credenciales de autenticación, asumiendo erróneamente que la red local (LAN) no está comprometida y obviando la falta de cifrado SSL/TLS.*
-![Evidencia D: Perspectiva de la Víctima](Evidencia-d.png)
+![Evidencia D: Perspectiva de la Víctima](Evidencia d.png)
 
 ### Fase 4: Análisis Forense y Extracción (Wireshark)
 Se utilizó Wireshark en la máquina atacante para realizar un monitoreo pasivo de los paquetes interceptados.
