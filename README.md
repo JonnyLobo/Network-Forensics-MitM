@@ -44,7 +44,7 @@ Se utilizó Wireshark en la máquina atacante para realizar un monitoreo pasivo 
 
 **Evidencia D: Aislamiento del Tráfico y Filtrado**
 *Mediante la aplicación de filtros lógicos estrictos (`ip.src == 192.168.199.137 and http`), se aisló el ruido de la red para identificar exactamente el paquete HTTP POST que contiene el envío del formulario.*
-![Evidencia D: Filtro Wireshark](Evidencia-c.png.png)
+![Evidencia C: Filtro Wireshark](Evidencia-c.png)
 
 **Evidencia E: Flujo HTTP (Extracción de Credenciales en Texto Plano)**
 *Al inspeccionar el flujo TCP (Follow HTTP Stream) del paquete POST identificado, se evidencia la captura exitosa de las credenciales de autenticación enviadas en texto plano.*
