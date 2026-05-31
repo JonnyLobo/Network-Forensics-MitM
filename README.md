@@ -30,7 +30,7 @@ Se habilitó el enrutamiento a nivel de kernel en el sistema atacante (`net.ipv4
 
 **Evidencia B: Detección de Anomalía Matemática (El Compromiso)**
 *Al re-auditar el endpoint, se detecta el vector de ataque: La IP del Enrutador (`.2`) y la IP del Atacante (`.133`) apuntan a la **misma dirección MAC física**. Esto es criptográfica y físicamente imposible en una red no comprometida.*
-![Evidencia B: Tabla ARP Envenenada](evidencia-b.png)
+![Evidencia B: Tabla ARP Envenenada](evidencia-b.png.png)
 
 ### Fase 3: La Perspectiva de la Víctima (El Cebo)
 Con el flujo de tráfico (Norte-Sur) desviado a través de la máquina atacante, se observó la interacción del usuario final.
